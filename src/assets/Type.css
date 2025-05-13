@@ -1,0 +1,185 @@
+.local-layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("https://images.unsplash.com/photo-1659705113832-2ff3f551ab37?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.sidebarr {
+    background: rgba(16, 16, 16, 0.1);
+    backdrop-filter: blur(16px);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.location-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.location-info {
+    font-size: 1rem;
+    color: #374151;
+}
+
+.error {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.main-contentt {
+    padding: 3rem;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.main-contentt h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #0d0d0d;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 220px;
+    height: 240px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.card span {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Unsplash Backgrounds */
+.animal-card {
+    background-image: url("https://plus.unsplash.com/premium_photo-1664304400278-8152cba3da20?q=80&w=2088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.bir-card {
+    background-image: url("https://images.unsplash.com/photo-1547707188-cdbffa0bc270?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+
+.aquatic-card {
+    background-image: url("https://images.unsplash.com/photo-1742538703467-00cd49d8a8d4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.reptile-card {
+    background-image: url("https://images.unsplash.com/photo-1594037419616-5685d4595223?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.amphi-card {
+    background-image: url("https://images.unsplash.com/photo-1617130411110-0fbdc5a5bdc8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.insec-card {
+    background-image: url("https://images.unsplash.com/photo-1533048324814-79b0a31982f1?q=80&w=1968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.back-button {
+    
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: rgba(6, 95, 70, 0.9);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: rgba(4, 75, 55, 1);
+}
+
+.p1,
+.p2,
+p,
+.p4,
+.p5,
+.p6 {
+    font-size: 14px;
+}
+
+
+.p1{
+background-color: #1a4603;
+padding: 2px;
+text-align: center;
+border-radius: 12px;
+color: white;
+}
+.p2{
+    background-color: #17d3ef;
+padding: 2px;
+text-align: center;
+border-radius: 12px;
+}
+.p{
+    background-color: #534b1b;
+padding: 2px;
+text-align: center;
+border-radius: 12px;
+color: white;
+}
+.p4{
+    background-color: #d45cf5;
+padding: 2px;
+text-align: center;
+border-radius: 12px;
+}
+.p5{
+    background-color: #ddf010;
+padding: 2px;
+text-align: center;
+border-radius: 12px;
+}
+.p6{
+    background-color: #2a0fa2;
+padding: 2px;
+text-align: center;
+border-radius: 12px;
+color: white;
+}
+
+/* Positioning the dropdown */
+.dropdown-container {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10;
+}
+
+.country-dropdown {
+    width: 200px;
+}

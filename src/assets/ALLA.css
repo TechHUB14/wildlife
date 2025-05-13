@@ -1,0 +1,120 @@
+.b1 {
+    display: flex;
+    height: 100%;
+    padding: 1rem;
+    background-image: url("https://images.unsplash.com/photo-1687801676467-2065d7ae2db2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  }
+.r{
+    font-size: 25px;
+}
+  .b2 {
+    width: 300px; /* Reduced sidebar width */
+    background: rgba(16, 16, 16, 0.1);
+  backdrop-filter: blur(16px);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  color: #111827;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  }
+  
+  .b3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+
+  }
+  
+  .search-bar {
+    margin-top: 1rem;
+    padding: 0.5rem 0.75rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  .b4 {
+    margin-top: 1rem;
+    background-color: #1f2937;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .b5 {
+    flex: 1;
+    padding: 1rem 2rem;
+  }
+  
+  .b6 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .b7 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .b8 {
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .b8 span {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius:1rem;
+  }
+
+  .learn-more-link {
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.no-birds {
+  text-align: center;
+  margin-top: 50px;
+  color:white;
+  background: rgba(16, 16, 16, 0.5);
+  padding: 10px;
+}
+
+.no-birds h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.no-birds p {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.no-birds div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

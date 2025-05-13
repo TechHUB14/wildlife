@@ -1,0 +1,108 @@
+/* Background */
+.login-bg {
+    background-image: url("https://images.unsplash.com/photo-1641146716814-0f9fa849ee99?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Container with glass effect */
+  .login-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    padding: 40px;
+    max-width: 420px;
+    width: 100%;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+    text-align: center;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    
+    margin-left: 850px;
+  }
+  
+  /* Header */
+  .login-container h2 {
+    font-size: 28px;
+    margin-bottom: 24px;
+    color: #f5e7e7;
+    font-weight: 600;
+  }
+  
+  /* Input fields */
+  .login-input {
+    width: 100%;
+    padding: 14px 16px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.25);
+    color: #040000;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .login-input::placeholder {
+    color: rgba(213, 208, 208, 0.8);
+  }
+  
+  .login-input:focus {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  
+  /* Buttons */
+  .login-button,
+  .reset-button,
+  .back-button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .login-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .login-button:hover {
+    background-color: #43a047;
+  }
+  
+  .reset-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .reset-button:hover {
+    background-color: #e53935;
+  }
+  
+  .back-button {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .back-button:hover {
+    background-color: #1e88e5;
+  }
+  
+  /* Link */
+  a {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top: 8px;
+    display: inline-block;
+  }
+  

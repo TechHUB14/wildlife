@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Bengal Tiger",
+    "image": "https://images.unsplash.com/photo-1548184062-8ec2ca93a26c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "wiki": "https://en.wikipedia.org/wiki/Bengal_tiger",
+    "country": "India",
+    "state": "West Bengal",
+    "location": "Sundarbans"
+  },
+  {
+    "name": "African Elephant",
+    "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2",
+    "wiki": "https://en.wikipedia.org/wiki/African_elephant",
+    "country": "Kenya",
+    "state": "Rift Valley",
+    "location": "Maasai Mara"
+  },
+  {
+    "name": "Giant Panda",
+    "image": "https://images.unsplash.com/photo-1574695401510-cc99e0b50d21",
+    "wiki": "https://en.wikipedia.org/wiki/Giant_panda",
+    "country": "China",
+    "state": "Sichuan",
+    "location": "Wolong Reserve"
+  },
+  {
+    "name": "Kangaroo",
+    "image": "https://images.unsplash.com/photo-1538009631471-cffcb6cbd97a",
+    "wiki": "https://en.wikipedia.org/wiki/Kangaroo",
+    "country": "Australia",
+    "state": "New South Wales",
+    "location": "Blue Mountains"
+  },
+  {
+    "name": "Grizzly Bear",
+    "image": "https://images.unsplash.com/photo-1606744837616-8aa4fb8fbc17",
+    "wiki": "https://en.wikipedia.org/wiki/Grizzly_bear",
+    "country": "USA",
+    "state": "Alaska",
+    "location": "Denali National Park"
+  },
+  {
+    "name": "Jaguar",
+    "image": "https://images.unsplash.com/photo-1587502536263-9298f0e8a4f0",
+    "wiki": "https://en.wikipedia.org/wiki/Jaguar",
+    "country": "Brazil",
+    "state": "Mato Grosso",
+    "location": "Pantanal"
+  },
+  {
+    "name": "Snow Leopard",
+    "image": "https://images.unsplash.com/photo-1614360993401-8b9b32e285f5",
+    "wiki": "https://en.wikipedia.org/wiki/Snow_leopard",
+    "country": "Nepal",
+    "state": "Karnali",
+    "location": "Shey Phoksundo National Park"
+  },
+  {
+    "name": "Moose",
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+    "wiki": "https://en.wikipedia.org/wiki/Moose",
+    "country": "Canada",
+    "state": "British Columbia",
+    "location": "Yoho National Park"
+  },
+  {
+    "name": "Komodo Dragon",
+    "image": "https://images.unsplash.com/photo-1565711950362-8d27f64b2fd1",
+    "wiki": "https://en.wikipedia.org/wiki/Komodo_dragon",
+    "country": "Indonesia",
+    "state": "East Nusa Tenggara",
+    "location": "Komodo Island"
+  },
+  {
+    "name": "Polar Bear",
+    "image": "https://images.unsplash.com/photo-1592328493025-e1ae239523c2",
+    "wiki": "https://en.wikipedia.org/wiki/Polar_bear",
+    "country": "Norway",
+    "state": "Svalbard",
+    "location": "Arctic Ocean"
+  }
+]
