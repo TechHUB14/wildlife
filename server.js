@@ -2,6 +2,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import axios from 'axios';  // Import axios for API calls
+import multer from 'multer';
+const upload = multer({ storage: multer.memoryStorage() }); 
 
 const app = express();
 app.use(cors());
@@ -22,7 +24,7 @@ const birdSchema = new mongoose.Schema({
     wiki: String,
     country: String,
     state: String,
-    location: String,
+    location: [String],
 });
 
 const Bird = mongoose.model('Bird', birdSchema);
@@ -64,7 +66,7 @@ const animalSchema = new mongoose.Schema({
     wiki: String,
     country: String,
     state: String,
-    location: String,
+    location: [String],
 });
 const Animal = mongoose.model('Animal', animalSchema);
 
@@ -187,6 +189,112 @@ app.get("/api/user/email/:email", async (req, res) => {
         res.status(500).json({ error: "Server error" });
     }
 });
+
+
+
+
+// Helper to get model by type
+function getModelByType(type) {
+    switch (type) {
+        case 'bird': return Bird;
+        case 'animal': return Animal;
+        case 'aquatic': return Aquatic;
+        case 'amphibians': return Amphibian;
+        case 'reptiles': return Reptile;
+        default: return null;
+    }
+}
+
+// Upload endpoint
+app.post('/api/upload', upload.single('image'), async (req, res)  => {
+    try {
+        const { name, imageUrl, wiki, country, state, location, type } = req.body;
+
+        if (!name || !imageUrl || !type) {
+            return res.status(400).json({ error: 'Missing required fields: name, imageUrl, or type' });
+        }
+
+        const Model = getModelByType(type.toLowerCase());
+        if (!Model) return res.status(400).json({ error: 'Invalid wildlife type' });
+
+        // Find if the name already exists (case insensitive)
+        const existing = await Model.findOne({ name: { $regex: new RegExp(`^${name}$`, 'i') } });
+
+        if (existing) {
+            // If location differs, add it if not present
+            if (location && location.trim() !== '') {
+                const loc = location.trim();
+                if (!existing.location.includes(loc)) {
+                    existing.location.push(loc);
+                    await existing.save();
+                    return res.status(200).json({ message: `${type} already exists. Added new location to record.` });
+                }
+            }
+            return res.status(200).json({ message: `${type} already exists in the database.` });
+        }
+
+        // If no existing record, create new
+        const locationArray = location ? [location.trim()] : [];
+
+        const newEntry = new Model({
+            name,
+            image: imageUrl,
+            wiki: wiki || '',
+            country: country || '',
+            state: state || '',
+            location: locationArray,
+        });
+
+        await newEntry.save();
+        return res.status(201).json({ message: 'Upload successful' });
+    } catch (error) {
+        console.error('Upload error:', error);
+        return res.status(500).json({ error: 'Server error during upload' });
+    }
+});
+
+// Example GET endpoint for birds (you can add similar ones for others)
+app.get('/api/birds', async (req, res) => {
+    try {
+        const birds = await Bird.find();
+        res.json(birds);
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to fetch birds' });
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Server running on PORT 5000
 const PORT = 5000;

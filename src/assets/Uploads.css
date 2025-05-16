@@ -179,4 +179,69 @@ button {
     background-color: #d3d3d3;
     cursor: not-allowed;
   }
-  
+  .toggle-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.active-label {
+  font-weight: bold;
+  color: #2c7be5;
+}
+
+.inactive-label {
+  color: #aaa;
+}
+
+/* Toggle Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-color: rgb(204, 115, 246);
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #e691fb;
+}
+
+input:checked + .slider:before {
+  transform: translateX(24px);
+}
+
+#file, #url{
+  color: black;
+  font-size: 18px;
+}
