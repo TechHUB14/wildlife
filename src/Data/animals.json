@@ -7,6 +7,65 @@
     "state": "West Bengal",
     "location": "Sundarbans"
   },
+ {
+    "name": "Indian Leopard",
+    "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552",
+    "wiki": "https://en.wikipedia.org/wiki/Leopard",
+    "country": "India",
+    "state": "Madhya Pradesh",
+    "location": "Kanha National Park"
+  },
+  {
+    "name": "Indian Cobra",
+    "image": "https://images.unsplash.com/photo-1567538092319-06d4d18c3f9a",
+    "wiki": "https://en.wikipedia.org/wiki/Indian_cobra",
+    "country": "India",
+    "state": "Rajasthan",
+    "location": "Sariska Tiger Reserve"
+  },
+  {
+    "name": "Asiatic Lion",
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
+    "wiki": "https://en.wikipedia.org/wiki/Asiatic_lion",
+    "country": "India",
+    "state": "Gujarat",
+    "location": "Gir National Park"
+  },
+  {
+    "name": "Indian Star Tortoise",
+    "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce",
+    "wiki": "https://en.wikipedia.org/wiki/Indian_star_tortoise",
+    "country": "India",
+    "state": "Tamil Nadu",
+    "location": "Mudumalai National Park"
+  },
+  {
+    "name": "Nilgiri Tahr",
+    "image": "https://images.unsplash.com/photo-1525253086316-d0c936c814f8",
+    "wiki": "https://en.wikipedia.org/wiki/Nilgiri_tahr",
+    "country": "India",
+    "state": "Tamil Nadu",
+    "location": "Eravikulam National Park"
+  },
+  {
+    "name": "Great Indian Hornbill",
+    "image": "https://images.unsplash.com/photo-1492725764893-90b379c2b6e7",
+    "wiki": "https://en.wikipedia.org/wiki/Great_Indian_hornbill",
+    "country": "India",
+    "state": "Arunachal Pradesh",
+    "location": "Namdapha National Park"
+  },
+  {
+    "name": "Indian Pangolin",
+    "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbe3",
+    "wiki": "https://en.wikipedia.org/wiki/Indian_pangolin",
+    "country": "India",
+    "state": "Kerala",
+    "location": "Periyar Wildlife Sanctuary"
+  },
+
+
+
   {
     "name": "African Elephant",
     "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2",

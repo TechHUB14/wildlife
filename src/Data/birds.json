@@ -4,7 +4,7 @@
     "name": "Peacock",
     "image": "https://images.unsplash.com/photo-1502031176098-2e91ccc16e59",
     "wiki": "https://en.wikipedia.org/wiki/Indian_peafowl",
-    "state": "Rajasthan",
+    "state": ["Rajasthan","Karnataka"],
     "location": null
   },
   {
@@ -12,7 +12,7 @@
     "name": "Indian Roller",
     "image": "https://images.unsplash.com/photo-1707066977093-67ca66af0abc",
     "wiki": "https://en.wikipedia.org/wiki/Indian_roller",
-    "state": "Andhra Pradesh",
+    "state": ["Andhra Pradesh"],
     "location": null
   },
   {
@@ -20,7 +20,7 @@
     "name": "Greater Flamingo",
     "image": "https://images.unsplash.com/photo-1626761301982-735bfe4d20e0",
     "wiki": "https://en.wikipedia.org/wiki/Greater_flamingo",
-    "state": "Gujarat",
+    "state": ["Gujarat"],
     "location": null
   },
   {
@@ -28,7 +28,7 @@
     "name": "Indian Vulture",
     "image": "https://images.unsplash.com/photo-1564646350489-06a65dbaec43",
     "wiki": "https://en.wikipedia.org/wiki/Indian_vulture",
-    "state": "Madhya Pradesh",
+    "state": ["Madhya Pradesh"],
     "location": null
   },
   {
@@ -36,7 +36,7 @@
     "name": "Malabar Grey Hornbill",
     "image": "https://images.unsplash.com/photo-1713683143857-925e3b16f332",
     "wiki": "https://en.wikipedia.org/wiki/Malabar_grey_hornbill",
-    "state": "Karnataka",
+    "state": ["Karnataka"],
     "location": null
   },
   {
@@ -44,7 +44,7 @@
     "name": "Emu",
     "image": "https://images.unsplash.com/photo-1626040701210-ee727c1438e2",
     "wiki": "https://en.wikipedia.org/wiki/Emu",
-    "state": "Western Australia",
+    "state": ["Western Australia"],
     "location": null
   },
   {
@@ -52,7 +52,7 @@
     "name": "Superb Lyrebird",
     "image": "https://images.unsplash.com/photo-1653718651913-0a6c6a480057",
     "wiki": "https://en.wikipedia.org/wiki/Superb_lyrebird",
-    "state": "New South Wales",
+    "state": ["New South Wales"],
     "location": null
   },
   {
@@ -60,7 +60,7 @@
     "name": "Hyacinth Macaw",
     "image": "https://images.unsplash.com/photo-1718767432680-858fe59c0561",
     "wiki": "https://en.wikipedia.org/wiki/Hyacinth_macaw",
-    "state": "Pantanal",
+    "state": ["Pantanal"],
     "location": null
   },
   {
@@ -68,79 +68,79 @@
     "name": "Toco Toucan",
     "image": "https://images.unsplash.com/photo-1734088394344-129b88e019b4",
     "wiki": "https://en.wikipedia.org/wiki/Toco_toucan",
-    "state": "Amazon Rainforest",
+    "state": ["Amazon Rainforest"],
     "location": null
   },
   {
+    "country": "India",
     "name": "Cinereous Tit",
-    "image": "https://images.unsplash.com/photo-1720806795921-e1e679ec4631?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "link": "https://en.wikipedia.org/wiki/Cinereous_tit",
-    "country": "India",
-    "state": "Uttarakhand",
+    "image": "https://images.unsplash.com/photo-1720806795921-e1e679ec4631",
+    "wiki": "https://en.wikipedia.org/wiki/Cinereous_tit",
+    "state": ["Uttarakhand","Karnataka"],
     "location": "Nelamangala"
   },
   {
+    "country": "India",
     "name": "Red-Whiskered Bulbul",
-    "image": "https://images.unsplash.com/photo-1508231610255-092c15bf08f7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "link": "https://en.wikipedia.org/wiki/Red-whiskered_bulbul",
-    "country": "India",
-    "state": "Kerala",
+    "image": "https://images.unsplash.com/photo-1508231610255-092c15bf08f7",
+    "wiki": "https://en.wikipedia.org/wiki/Red-whiskered_bulbul",
+    "state": ["Kerala","Karnataka"],
     "location": "Nelamangala"
   },
   {
+    "country": "India",
     "name": "Indian White Eye",
-    "image": "https://images.unsplash.com/photo-1698684119223-839cb07dbf90?q=80&w=2049&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "link": "https://en.wikipedia.org/wiki/Indian_white-eye",
-    "country": "India",
-    "state": "West Bengal",
+    "image": "https://images.unsplash.com/photo-1698684119223-839cb07dbf90",
+    "wiki": "https://en.wikipedia.org/wiki/Indian_white-eye",
+    "state": ["West Bengal","Karnataka"],
     "location": "Nelamangala"
   },
   {
+    "country": "India",
     "name": "Myna",
-    "image": "https://images.unsplash.com/photo-1647932447574-b9edfc0f2f1f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "link": "https://en.wikipedia.org/wiki/Myna",
-    "country": "India",
-    "state": "Delhi",
+    "image": "https://images.unsplash.com/photo-1647932447574-b9edfc0f2f1f",
+    "wiki": "https://en.wikipedia.org/wiki/Myna",
+    "state": ["Delhi","Karnataka"],
     "location": "Nelamangala"
   },
   {
+    "country": "India",
     "name": "Cattle Egret",
-    "image": "https://plus.unsplash.com/premium_photo-1668195165816-efe9ffc8a6d8?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "link": "https://en.wikipedia.org/wiki/Cattle_egret",
-    "country": "India",
-    "state": "Punjab",
+    "image": "https://plus.unsplash.com/premium_photo-1668195165816-efe9ffc8a6d8",
+    "wiki": "https://en.wikipedia.org/wiki/Cattle_egret",
+    "state": ["Punjab","Karnataka"],
     "location": "Nelamangala"
   },
   {
+    "country": "India",
     "name": "Parrot",
-    "image": "https://images.unsplash.com/photo-1602849942387-fe625a4e8821?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "link": "https://en.wikipedia.org/wiki/Rose-ringed_parakeet",
-    "country": "India",
-    "state": "Maharashtra",
+    "image": "https://images.unsplash.com/photo-1602849942387-fe625a4e8821",
+    "wiki": "https://en.wikipedia.org/wiki/Rose-ringed_parakeet",
+    "state": ["Maharashtra","Karnataka"],
     "location": "Nelamangala"
   },
   {
+    "country": "India",
     "name": "Black Kite",
-    "image": "https://images.unsplash.com/photo-1633139707388-16a0ffaa4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "link": "https://en.wikipedia.org/wiki/Black_kite",
-    "country": "India",
-    "state": "Uttar Pradesh",
+    "image": "https://images.unsplash.com/photo-1633139707388-16a0ffaa4af2",
+    "wiki": "https://en.wikipedia.org/wiki/Black_kite",
+    "state": ["Uttar Pradesh","Karnataka"],
     "location": "Nelamangala"
   },
   {
+    "country": "India",
     "name": "Greater Coucal",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Greater_Coucal_by_Tisha_Mukherjee_03%2C_crop.jpg/1024px-Greater_Coucal_by_Tisha_Mukherjee_03%2C_crop.jpg",
-    "link": "https://en.wikipedia.org/wiki/Greater_coucal",
-    "country": "India",
-    "state": "Assam",
+    "wiki": "https://en.wikipedia.org/wiki/Greater_coucal",
+    "state": ["Assam","Karnataka"],
     "location": "Nelamangala"
   },
   {
-    "name": "White-Throated Kingfisher",
-    "image": "https://images.unsplash.com/photo-1668081385409-cea9e166abe2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "link": "https://en.wikipedia.org/wiki/White-throated_kingfisher",
     "country": "India",
-    "state": "Andhra Pradesh",
+    "name": "White-Throated Kingfisher",
+    "image": "https://images.unsplash.com/photo-1668081385409-cea9e166abe2",
+    "wiki": "https://en.wikipedia.org/wiki/White-throated_kingfisher",
+    "state": ["Andhra Pradesh","Karnataka"],
     "location": "Nelamangala"
   }
 ]

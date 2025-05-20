@@ -68,7 +68,8 @@ export const AllBirds = () => {
                                 />
                                 <div className="bird-info">
                                     <h4>{bird.name}</h4>
-                                    <p><strong>State:</strong> {bird.state}</p>
+                                    <p><strong>State:</strong> {Array.isArray(bird.state) ? bird.state.join(", ") : bird.state}</p>
+
                                     <a href={bird.wiki} target="_blank" rel="noopener noreferrer">
                                         Learn More
                                     </a>

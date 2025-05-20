@@ -23,7 +23,7 @@ const birdSchema = new mongoose.Schema({
     image: String,
     wiki: String,
     country: String,
-    state: String,
+    state: [String],
     location: [String],
 });
 
@@ -43,20 +43,20 @@ const User = mongoose.model('User', userSchema);
 app.get('/api/birds', async (req, res) => {
     const { country, state, location } = req.query;
 
-    // Construct filter object based on query parameters
     const filter = {};
     if (country) filter.country = country;
-    if (state) filter.state = state;
-    if (location) filter.location = { $regex: new RegExp(location, 'i') };  // Case-insensitive location filter
+    if (state) filter.state = { $in: [state] }; // FIXED: handle array values
+    if (location) filter.location = { $regex: new RegExp(location, 'i') };
 
     try {
-        const birds = await Bird.find(filter);  // Fetch birds based on filter
-        res.json(birds);  // Send the birds as JSON response
+        const birds = await Bird.find(filter);
+        res.json(birds);
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Failed to fetch birds' });
     }
 });
+
 
 //animals
 
