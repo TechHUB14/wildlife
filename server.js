@@ -17,6 +17,31 @@ mongoose.connect('mongodb+srv://vishnuyadavmn14:Suri140203@wildlife14.xk4uojq.mo
 .then(() => console.log("MongoDB connected"))
 .catch(err => console.error("Failed to connect to MongoDB", err));
 
+//MONGODB_URI
+
+
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log('MongoDB connected successfully'))
+.catch(err => console.error('MongoDB connection error:', err));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Bird Schema and Model
 const birdSchema = new mongoose.Schema({
     name: String,
